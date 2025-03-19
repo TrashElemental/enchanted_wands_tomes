@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "r": {
+      "item": "seadwellers:depth_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  a",
+    " r ",
+    "s  "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:wand_depth"
+  },
+  "show_notification": true
+}

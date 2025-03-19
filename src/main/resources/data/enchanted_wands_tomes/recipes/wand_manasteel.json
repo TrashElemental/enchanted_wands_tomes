@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "r": {
+      "item": "botania:manasteel_ingot"
+    },
+    "s": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "pattern": [
+    "  a",
+    " r ",
+    "s  "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:wand_manasteel"
+  },
+  "show_notification": true
+}

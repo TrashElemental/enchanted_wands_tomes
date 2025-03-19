@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "r": {
+      "item": "realmrpg_creep:creeping_sprout"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  a",
+    " r ",
+    "s  "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:wand_pumpkin"
+  },
+  "show_notification": true
+}

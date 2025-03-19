@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enlightened_end:adamantite_ingot"
+  },
+  "base": {
+    "item": "enchanted_wands_tomes:tome_iron"
+  },
+  "result": {
+    "item": "enchanted_wands_tomes:tome_adamantite"
+  },
+  "template": {
+    "item": "enlightened_end:adamantite_smithing_template"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:blast_protection",
+    "minecraft:sweeping",
+    "minecraft:thorns",
+    "minecraft:sharpness",
+    "minecraft:power",
+    {
+      "id": "minecraft:breach",
+      "required": false
+    }
+  ]
+}

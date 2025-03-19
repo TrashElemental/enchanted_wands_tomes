@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "r": {
+      "item": "aether:zanite_gemstone"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  a",
+    " r ",
+    "s  "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:wand_zanite"
+  },
+  "show_notification": true
+}

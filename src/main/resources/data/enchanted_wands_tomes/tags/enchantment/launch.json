@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:feather_falling",
+    {
+      "id": "minecraft:density",
+      "required": false
+    },
+    {
+      "id": "minecraft:wind_burst",
+      "required": false
+    }
+  ]
+}

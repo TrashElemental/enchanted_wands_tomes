@@ -1,0 +1,37 @@
+package net.trashelemental.enchanted_wands_tomes.item.custom.UniqueTomes;
+
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.trashelemental.enchanted_wands_tomes.item.custom.TomeItem;
+
+public class FleshTomeItem extends TomeItem {
+    public FleshTomeItem(Properties properties, int baseCooldown, int enchantmentValue, int maxEnchantments) {
+        super(properties, baseCooldown, enchantmentValue, maxEnchantments);
+    }
+
+    private static final int repairTime = 300;
+    private int ticksSinceRepair = 0;
+
+    @Override
+    public void inventoryTick(ItemStack stack, Level level, Entity entity, int slotId, boolean isSelected) {
+        super.inventoryTick(stack, level, entity, slotId, isSelected);
+
+        if (entity instanceof Player player) {
+            int currentDamage = stack.getDamageValue();
+            int maxDamage = stack.getMaxDamage();
+            int currentFood = player.getFoodData().getFoodLevel();
+
+            if (currentDamage > 0 && currentDamage < maxDamage) {
+                if (ticksSinceRepair >= repairTime) {
+                    stack.setDamageValue(currentDamage - 3);
+                    player.getFoodData().setFoodLevel(currentFood - 1);
+                    ticksSinceRepair = 0;
+                } else {
+                    ticksSinceRepair++;
+                }
+            }
+        }
+    }
+}
