@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "r": {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  a",
+    " r ",
+    "s  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_flesh"
+  }
+}

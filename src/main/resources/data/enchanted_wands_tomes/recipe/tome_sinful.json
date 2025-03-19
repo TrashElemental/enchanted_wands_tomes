@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "minecraft:book"
+    },
+    "r": {
+      "item": "sons_of_sins:bloody_bone"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:tome_sinful"
+  }
+}

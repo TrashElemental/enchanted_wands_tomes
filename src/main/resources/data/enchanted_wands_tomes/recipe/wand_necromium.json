@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "caverns_and_chasms:necromium_ingot"
+  },
+  "base": {
+    "item": "enchanted_wands_tomes:wand_diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_necromium"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

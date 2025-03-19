@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "oreganized:electrum_ingot"
+  },
+  "base": {
+    "item": "enchanted_wands_tomes:wand_diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_electrum"
+  },
+  "template": {
+    "item": "oreganized:electrum_upgrade_smithing_template"
+  }
+}
