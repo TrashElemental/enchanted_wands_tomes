@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:imperium_gemstone"
+    },
+    "b": {
+      "item": "enchanted_wands_tomes:wand_tertium"
+    },
+    "r": {
+      "item": "mysticalagriculture:imperium_ingot"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_imperium"
+  }
+}

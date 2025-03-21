@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enchanted_wands_tomes:wand_dragonbone"
+    },
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_dragonbone_ice"
+  }
+}

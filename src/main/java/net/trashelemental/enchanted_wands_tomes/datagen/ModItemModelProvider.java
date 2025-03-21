@@ -91,6 +91,59 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WARDEN_TOME);
         simpleItem(ModItems.ZANITE_TOME);
 
+        handheldItem(ModItems.ILLUNITE_WAND);
+        simpleItem(ModItems.ILLUNITE_TOME);
+        handheldItem(ModItems.KUKO_WAND);
+        simpleItem(ModItems.KUKO_TOME);
+        handheldItem(ModItems.VENOMITE_WAND);
+        simpleItem(ModItems.VENOMITE_TOME);
+        handheldItem(ModItems.IRIDITE_WAND);
+        simpleItem(ModItems.IRIDITE_TOME);
+        handheldItem(ModItems.ENDIUM_WAND);
+        simpleItem(ModItems.ENDIUM_TOME);
+        handheldItem(ModItems.BRIMSTEEL_WAND);
+        simpleItem(ModItems.BRIMSTEEL_TOME);
+        handheldItem(ModItems.ALFSTEEL_WAND);
+        simpleItem(ModItems.ALFSTEEL_TOME);
+        handheldItem(ModItems.SHARPLEAF_WAND);
+        simpleItem(ModItems.SHARPLEAF_TOME);
+        handheldItem(ModItems.DRAGONBONE_WAND);
+        simpleItem(ModItems.DRAGONBONE_TOME);
+        handheldItem(ModItems.DRAGONBONE_FIRE_WAND);
+        simpleItem(ModItems.DRAGONBONE_FIRE_TOME);
+        handheldItem(ModItems.DRAGONBONE_ICE_WAND);
+        simpleItem(ModItems.DRAGONBONE_ICE_TOME);
+        handheldItem(ModItems.DRAGONBONE_LIGHTNING_WAND);
+        simpleItem(ModItems.DRAGONBONE_LIGHTNING_TOME);
+        handheldItem(ModItems.DRAGONSTEEL_FIRE_WAND);
+        simpleItem(ModItems.DRAGONSTEEL_FIRE_TOME);
+        handheldItem(ModItems.DRAGONSTEEL_ICE_WAND);
+        simpleItem(ModItems.DRAGONSTEEL_ICE_TOME);
+        handheldItem(ModItems.DRAGONSTEEL_LIGHTNING_WAND);
+        simpleItem(ModItems.DRAGONSTEEL_LIGHTNING_TOME);
+        handheldItem(ModItems.JUNGLE_MYRMEX_CHITIN_WAND);
+        simpleItem(ModItems.JUNGLE_MYRMEX_CHITIN_TOME);
+        handheldItem(ModItems.DESERT_MYRMEX_CHITIN_WAND);
+        simpleItem(ModItems.DESERT_MYRMEX_CHITIN_TOME);
+        handheldItem(ModItems.INFERIUM_WAND);
+        simpleItem(ModItems.INFERIUM_TOME);
+        handheldItem(ModItems.PRUDENTIUM_WAND);
+        simpleItem(ModItems.PRUDENTIUM_TOME);
+        handheldItem(ModItems.TERTIUM_WAND);
+        simpleItem(ModItems.TERTIUM_TOME);
+        handheldItem(ModItems.IMPERIUM_WAND);
+        simpleItem(ModItems.IMPERIUM_TOME);
+        handheldItem(ModItems.SUPREMIUM_WAND);
+        simpleItem(ModItems.SUPREMIUM_TOME);
+        handheldItem(ModItems.ALLTHEMODIUM_WAND);
+        simpleItem(ModItems.ALLTHEMODIUM_TOME);
+        handheldItem(ModItems.VIBRANIUM_WAND);
+        simpleItem(ModItems.VIBRANIUM_TOME);
+        handheldItem(ModItems.UNOBTAINIUM_WAND);
+        simpleItem(ModItems.UNOBTAINIUM_TOME);
+        handheldItem(ModItems.RATLANTIS_WAND);
+        simpleItem(ModItems.RATLANTIS_TOME);
+
     }
 
 

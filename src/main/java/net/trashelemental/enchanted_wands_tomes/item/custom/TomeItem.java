@@ -18,6 +18,7 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
 import net.minecraft.world.level.Level;
+import net.trashelemental.enchanted_wands_tomes.util.CheckEnchantForCompatibility;
 import net.trashelemental.enchanted_wands_tomes.util.EnchantmentChecker;
 import net.trashelemental.enchanted_wands_tomes.util.ModTags;
 import net.trashelemental.enchanted_wands_tomes.util.NumberConverter;
@@ -263,7 +264,7 @@ public class TomeItem extends Item {
 
     @Override
     public boolean supportsEnchantment(ItemStack stack, Holder<Enchantment> enchantment) {
-        return true;
+        return CheckEnchantForCompatibility.isEnchantmentInTags(enchantment);
     }
 
     @Override

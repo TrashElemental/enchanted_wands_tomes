@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "biomemakeover:illunite_shard"
+    },
+    "b": {
+      "item": "minecraft:book"
+    },
+    "r": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:tome_botanist"
+  }
+}

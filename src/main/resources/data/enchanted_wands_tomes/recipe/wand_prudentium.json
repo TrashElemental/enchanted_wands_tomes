@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:prudentium_gemstone"
+    },
+    "b": {
+      "item": "enchanted_wands_tomes:wand_inferium"
+    },
+    "r": {
+      "item": "mysticalagriculture:prudentium_ingot"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_prudentium"
+  }
+}

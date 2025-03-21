@@ -137,6 +137,87 @@ public class ModCreativeModeTabs {
                             output.accept(ModItems.WARDEN_TOME.get());
                         }
 
+                        //Modded materials wave 2
+
+                        if (ModList.get().isLoaded("allthemodium")) {
+                            output.accept(ModItems.ALLTHEMODIUM_WAND.get());
+                            output.accept(ModItems.ALLTHEMODIUM_TOME.get());
+                            output.accept(ModItems.VIBRANIUM_WAND.get());
+                            output.accept(ModItems.VIBRANIUM_TOME.get());
+                            output.accept(ModItems.UNOBTAINIUM_WAND.get());
+                            output.accept(ModItems.UNOBTAINIUM_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("mysticalagriculture")) {
+                            output.accept(ModItems.INFERIUM_WAND.get());
+                            output.accept(ModItems.INFERIUM_TOME.get());
+                            output.accept(ModItems.PRUDENTIUM_WAND.get());
+                            output.accept(ModItems.PRUDENTIUM_TOME.get());
+                            output.accept(ModItems.TERTIUM_WAND.get());
+                            output.accept(ModItems.TERTIUM_TOME.get());
+                            output.accept(ModItems.IMPERIUM_WAND.get());
+                            output.accept(ModItems.IMPERIUM_TOME.get());
+                            output.accept(ModItems.SUPREMIUM_WAND.get());
+                            output.accept(ModItems.SUPREMIUM_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("iceandfire")) {
+                            output.accept(ModItems.DRAGONBONE_WAND.get());
+                            output.accept(ModItems.DRAGONBONE_TOME.get());
+                            output.accept(ModItems.DRAGONBONE_FIRE_WAND.get());
+                            output.accept(ModItems.DRAGONBONE_FIRE_TOME.get());
+                            output.accept(ModItems.DRAGONBONE_ICE_WAND.get());
+                            output.accept(ModItems.DRAGONBONE_ICE_TOME.get());
+                            output.accept(ModItems.DRAGONBONE_LIGHTNING_WAND.get());
+                            output.accept(ModItems.DRAGONBONE_LIGHTNING_TOME.get());
+                            output.accept(ModItems.DRAGONSTEEL_FIRE_WAND.get());
+                            output.accept(ModItems.DRAGONSTEEL_FIRE_TOME.get());
+                            output.accept(ModItems.DRAGONSTEEL_ICE_WAND.get());
+                            output.accept(ModItems.DRAGONSTEEL_ICE_TOME.get());
+                            output.accept(ModItems.DRAGONSTEEL_LIGHTNING_WAND.get());
+                            output.accept(ModItems.DRAGONSTEEL_LIGHTNING_TOME.get());
+                            output.accept(ModItems.DESERT_MYRMEX_CHITIN_WAND.get());
+                            output.accept(ModItems.DESERT_MYRMEX_CHITIN_TOME.get());
+                            output.accept(ModItems.JUNGLE_MYRMEX_CHITIN_WAND.get());
+                            output.accept(ModItems.JUNGLE_MYRMEX_CHITIN_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("mythicbotany")) {
+                            output.accept(ModItems.ALFSTEEL_WAND.get());
+                            output.accept(ModItems.ALFSTEEL_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("organics")) {
+                            output.accept(ModItems.KUKO_WAND.get());
+                            output.accept(ModItems.KUKO_TOME.get());
+                            output.accept(ModItems.VENOMITE_WAND.get());
+                            output.accept(ModItems.VENOMITE_TOME.get());
+                            output.accept(ModItems.IRIDITE_WAND.get());
+                            output.accept(ModItems.IRIDITE_TOME.get());
+                            output.accept(ModItems.ENDIUM_WAND.get());
+                            output.accept(ModItems.ENDIUM_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("seeds")) {
+                            output.accept(ModItems.SHARPLEAF_WAND.get());
+                            output.accept(ModItems.SHARPLEAF_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("blazegear")) {
+                            output.accept(ModItems.BRIMSTEEL_WAND.get());
+                            output.accept(ModItems.BRIMSTEEL_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("rats")) {
+                            output.accept(ModItems.RATLANTIS_WAND.get());
+                            output.accept(ModItems.RATLANTIS_TOME.get());
+                        }
+
+                        if (ModList.get().isLoaded("biomemakeover")) {
+                            output.accept(ModItems.ILLUNITE_WAND.get());
+                            output.accept(ModItems.ILLUNITE_TOME.get());
+                        }
+
                         //Various
                         output.accept(ModItems.SILVER_WAND.get());
                         output.accept(ModItems.SILVER_TOME.get());

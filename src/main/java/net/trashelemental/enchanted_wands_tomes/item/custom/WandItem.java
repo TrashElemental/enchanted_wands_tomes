@@ -22,6 +22,7 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.ItemEnchantments;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import net.trashelemental.enchanted_wands_tomes.util.CheckEnchantForCompatibility;
 import net.trashelemental.enchanted_wands_tomes.util.EnchantmentChecker;
 import net.trashelemental.enchanted_wands_tomes.util.ModTags;
 import net.trashelemental.enchanted_wands_tomes.util.NumberConverter;
@@ -293,12 +294,15 @@ public class WandItem extends Item {
             tooltipComponents.add(Component.translatable("tooltip.enchanted_wands_tomes.blank_space"));
         }
 
+        tooltipComponents.add(Component.translatable("tooltip.enchanted_wands_tomes.projectile_damage",
+                getAdjustedDamage(stack)).withStyle(ChatFormatting.DARK_GREEN));
+
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 
     @Override
     public boolean supportsEnchantment(ItemStack stack, Holder<Enchantment> enchantment) {
-        return true;
+        return CheckEnchantForCompatibility.isEnchantmentInTags(enchantment);
     }
 
     @Override

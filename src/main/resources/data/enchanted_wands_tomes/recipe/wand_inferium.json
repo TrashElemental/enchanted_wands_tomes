@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:inferium_gemstone"
+    },
+    "b": {
+      "item": "enchanted_wands_tomes:wand_diamond"
+    },
+    "r": {
+      "item": "mysticalagriculture:inferium_ingot"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:wand_inferium"
+  }
+}

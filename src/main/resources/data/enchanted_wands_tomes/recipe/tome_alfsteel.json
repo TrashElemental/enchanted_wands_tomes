@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "mythicbotany:alfsteel_ingot"
+  },
+  "base": {
+    "item": "enchanted_wands_tomes:tome_terrasteel"
+  },
+  "result": {
+    "count": 1,
+    "id": "enchanted_wands_tomes:tome_alfsteel"
+  },
+  "template": {
+    "item": "mythicbotany:alfsteel_template"
+  }
+}
