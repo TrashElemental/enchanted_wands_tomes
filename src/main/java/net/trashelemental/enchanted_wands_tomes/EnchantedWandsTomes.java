@@ -13,14 +13,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.trashelemental.enchanted_wands_tomes.block.ModBlocks;
 import net.trashelemental.enchanted_wands_tomes.entity.ModEntities;
 import net.trashelemental.enchanted_wands_tomes.entity.client.renderers.WandProjectileRenderer;
 import net.trashelemental.enchanted_wands_tomes.item.ModCreativeModeTabs;
 import net.trashelemental.enchanted_wands_tomes.item.ModItems;
-import net.trashelemental.enchanted_wands_tomes.magic.brewing.ModPotions;
-import net.trashelemental.enchanted_wands_tomes.magic.effects.ModMobEffects;
-import net.trashelemental.enchanted_wands_tomes.magic.enchantments.ModEnchantments;
 import org.slf4j.Logger;
 
 import java.util.AbstractMap;
@@ -43,11 +39,7 @@ public class EnchantedWandsTomes
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
         ModEntities.register(modEventBus);
-        ModPotions.register(modEventBus);
-        ModMobEffects.register(modEventBus);
-        ModEnchantments.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

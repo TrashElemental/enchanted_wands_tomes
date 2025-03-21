@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:tertium_gemstone"
+    },
+    "b": {
+      "item": "enchanted_wands_tomes:tome_prudentium"
+    },
+    "r": {
+      "item": "mysticalagriculture:tertium_ingot"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " a "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:tome_tertium"
+  },
+  "show_notification": true
+}

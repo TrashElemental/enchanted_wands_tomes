@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "biomemakeover:illunite_shard"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  a",
+    " s ",
+    "s  "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:wand_illunite"
+  },
+  "show_notification": true
+}

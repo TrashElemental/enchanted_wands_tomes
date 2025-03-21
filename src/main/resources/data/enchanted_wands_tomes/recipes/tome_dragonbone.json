@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "minecraft:book"
+    },
+    "r": {
+      "item": "iceandfire:dragonbone"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " r "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:tome_dragonbone"
+  },
+  "show_notification": true
+}

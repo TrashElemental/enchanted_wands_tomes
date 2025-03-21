@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "mysticalagriculture:supremium_gemstone"
+    },
+    "b": {
+      "item": "enchanted_wands_tomes:tome_imperium"
+    },
+    "r": {
+      "item": "mysticalagriculture:supremium_ingot"
+    }
+  },
+  "pattern": [
+    " a ",
+    "rbr",
+    " a "
+  ],
+  "result": {
+    "item": "enchanted_wands_tomes:tome_supremium"
+  },
+  "show_notification": true
+}
+}

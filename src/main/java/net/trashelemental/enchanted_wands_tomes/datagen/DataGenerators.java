@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.trashelemental.enchanted_wands_tomes.EnchantedWandsTomes;
 import net.trashelemental.enchanted_wands_tomes.compat.BetterCombat.BetterCombatWeaponPresetProvider;
+import net.trashelemental.enchanted_wands_tomes.compat.EnchantmentCompatProvider;
 import net.trashelemental.enchanted_wands_tomes.datagen.loot.ModLootTableProvider;
 import net.trashelemental.enchanted_wands_tomes.datagen.tags.ModBlockTagGenerator;
 import net.trashelemental.enchanted_wands_tomes.datagen.tags.ModEntityTagGenerator;
@@ -45,6 +46,7 @@ public class DataGenerators {
         //Better Combat
         generator.addProvider(event.includeServer(), new BetterCombatWeaponPresetProvider(packOutput));
 
+        generator.addProvider(event.includeServer(), new EnchantmentCompatProvider(packOutput, event.getLookupProvider(), "enchanted_wands_tomes", existingFileHelper));
 
     }
 }

@@ -64,6 +64,33 @@ public class BetterCombatWeaponPresetProvider implements DataProvider {
         registerWeapon(ModItems.WARDEN_WAND, "wand");
         registerWeapon(ModItems.ZANITE_WAND, "wand");
 
+        registerWeapon(ModItems.ILLUNITE_WAND, "wand");
+        registerWeapon(ModItems.BRIMSTEEL_WAND, "wand");
+        registerWeapon(ModItems.SHARPLEAF_WAND, "wand");
+        registerWeapon(ModItems.ALFSTEEL_WAND, "wand");
+        registerWeapon(ModItems.RATLANTIS_WAND, "wand");
+        registerWeapon(ModItems.DRAGONBONE_WAND, "wand");
+        registerWeapon(ModItems.DRAGONBONE_FIRE_WAND, "wand");
+        registerWeapon(ModItems.DRAGONBONE_ICE_WAND, "wand");
+        registerWeapon(ModItems.DRAGONBONE_LIGHTNING_WAND, "wand");
+        registerWeapon(ModItems.DRAGONSTEEL_FIRE_WAND, "wand");
+        registerWeapon(ModItems.DRAGONSTEEL_ICE_WAND, "wand");
+        registerWeapon(ModItems.DRAGONSTEEL_LIGHTNING_WAND, "wand");
+        registerWeapon(ModItems.DESERT_MYRMEX_CHITIN_WAND, "wand");
+        registerWeapon(ModItems.JUNGLE_MYRMEX_CHITIN_WAND, "wand");
+        registerWeapon(ModItems.KUKO_WAND, "wand");
+        registerWeapon(ModItems.VENOMITE_WAND, "wand");
+        registerWeapon(ModItems.IRIDITE_WAND, "wand");
+        registerWeapon(ModItems.ENDIUM_WAND, "wand");
+        registerWeapon(ModItems.ALLTHEMODIUM_WAND, "wand");
+        registerWeapon(ModItems.VIBRANIUM_WAND, "wand");
+        registerWeapon(ModItems.UNOBTAINIUM_WAND, "wand");
+        registerWeapon(ModItems.INFERIUM_WAND, "wand");
+        registerWeapon(ModItems.PRUDENTIUM_WAND, "wand");
+        registerWeapon(ModItems.TERTIUM_WAND, "wand");
+        registerWeapon(ModItems.IMPERIUM_WAND, "wand");
+        registerWeapon(ModItems.SUPREMIUM_WAND, "wand");
+
         return CompletableFuture.allOf(futures.toArray(new CompletableFuture<?>[0]));
     }
 

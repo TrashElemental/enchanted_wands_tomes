@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "allthemodium:vibranium_ingot"
+  },
+  "base": {
+    "item": "enchanted_wands_tomes:tome_allthemodium"
+  },
+  "result": {
+    "item": "enchanted_wands_tomes:tome_vibranium"
+  },
+  "template": {
+    "item": "allthemodium:vibranium_upgrade_smithing_template"
+  }
+}
